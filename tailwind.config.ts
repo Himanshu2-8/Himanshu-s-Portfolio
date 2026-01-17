@@ -57,11 +57,27 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        cream: "hsl(var(--cream))",
+        charcoal: "hsl(var(--charcoal))",
+        terracotta: {
+          DEFAULT: "hsl(var(--primary))",
+          soft: "hsl(var(--terracotta-soft))",
+        },
+        stone: "hsl(var(--stone))",
       },
       borderRadius: {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
+      },
+      fontFamily: {
+        display: ['Space Grotesk', 'sans-serif'],
+        body: ['Inter', 'system-ui', 'sans-serif'],
+      },
+      boxShadow: {
+        soft: "var(--shadow-soft)",
+        elevated: "var(--shadow-elevated)",
+        card: "var(--shadow-card)",
       },
       keyframes: {
         "accordion-down": {
