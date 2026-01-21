@@ -8,14 +8,19 @@ const achievements = [
     description: "Ranked 6,976 globally",
   },
   {
-    icon: Code,
-    title: "Problem Solving",
-    description: "300+ problems across LeetCode, Codeforces, CodeChef & GFG",
+    icon: Trophy,
+    title:"DTU BrAInwave 2026 Finalist",
+    description:"Finished in top 10 out of total 70+ teams"
   },
   {
     icon: Star,
     title: "Competitive Ratings",
     description: "LeetCode 1450 • CodeChef 1250 • HackerRank 5★ C++",
+  },
+  {
+    icon: Code,
+    title: "Problem Solving",
+    description: "300+ problems across LeetCode, Codeforces, CodeChef & GFG",
   },
 ];
 

@@ -38,11 +38,21 @@ const Hero = () => {
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.3 }}
-          className="display-heading mb-6"
-        >
-          <span className="block">Himanshu</span>
-          <span className="block text-primary">Pragy</span>
-        </motion.h1>
+            className="display-heading mb-8"
+          >
+            <div className="flex flex-col sm:flex-row items-center gap-6">
+              <div className="flex flex-col items-start">
+                <span className="block">Himanshu</span>
+                <span className="block text-primary">Pragyan</span>
+              </div>
+              <img
+                src="/profile.jpeg"
+                alt="Profile"
+                className="w-40 h-40 ml-8 sm:w-40 sm:h-40 rounded-full object-cover border-4 border-primary shadow-lg transition-all duration-300"
+                style={{ boxShadow: "0 8px 32px rgba(0,0,0,0.12)" }}
+              />
+            </div>
+          </motion.h1>
 
         {/* Description */}
         <motion.p
