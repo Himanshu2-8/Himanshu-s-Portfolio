@@ -3,11 +3,11 @@ import { motion } from "framer-motion";
 const skillCategories = [
   {
     label: "Languages",
-    skills: ["TypeScript", "JavaScript", "C++", "Java", "Python"],
+    skills: ["TypeScript", "Python", "JavaScript", "C++", "Java"],
   },
   {
     label: "Frameworks",
-    skills: ["React", "Next.js", "Express", "FastAPI"],
+    skills: ["Next.js", "Express", "React", "FastAPI"],
   },
   {
     label: "Tools",
