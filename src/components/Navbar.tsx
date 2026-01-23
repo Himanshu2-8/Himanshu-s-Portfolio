@@ -24,8 +24,7 @@ const Navbar = () => {
     const links = [
         { name: "GitHub", icon: Github, url: "https://github.com/Himanshu2-8" },
         { name: "LinkedIn", icon: Linkedin, url: "https://linkedin.com/in/himanshu-pragyan" },
-        { name: "LeetCode", icon: Code2, url: "https://leetcode.com/u/Himanshu_2809" },
-        { name: "CodeChef", icon: ChefHat, url: "https://www.codechef.com/users/himanshu2809" },
+        { name: "CodingProfile", icon: Code2, url: "https://codolio.com/profile/himanshu28" },
         { name: "Twitter", icon: Twitter, url: "https://twitter.com/Himanshu_348" },
         { name: "Contact", icon: Mail, url: "mailto:pragyan.himanshu2004@gmail.com" },
     ];
