@@ -9,8 +9,8 @@ const achievements = [
   },
   {
     icon: Trophy,
-    title:"DTU BrAInwave 2026 Finalist",
-    description:"Finished in top 10 out of total 70+ teams"
+    title:"DTU BrAInwave 2026",
+    description:"Finalist among 100+ teams in 36 hours national hackathon",
   },
   {
     icon: Star,
