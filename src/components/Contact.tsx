@@ -60,14 +60,14 @@ const Contact = () => {
           className="flex items-center justify-center gap-6"
         >
           <a
-            href="#"
+            href="https://github.com/Himanshu2-8"
             className="p-4 rounded-full bg-card border border-border hover:border-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300"
             aria-label="GitHub"
           >
             <Github className="w-5 h-5" />
           </a>
           <a
-            href="#"
+            href="https://www.linkedin.com/in/himanshu-pragyan"
             className="p-4 rounded-full bg-card border border-border hover:border-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300"
             aria-label="LinkedIn"
           >

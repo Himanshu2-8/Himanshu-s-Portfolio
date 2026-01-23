@@ -12,7 +12,7 @@ const Footer = () => {
       >
         <div className="flex items-center gap-2">
           <span className="accent-dot" />
-          <span className="font-display font-semibold">Himanshu Pragy</span>
+          <span className="font-display font-semibold">Himanshu Pragyan</span>
         </div>
         <p className="text-sm text-muted-foreground">
           © {new Date().getFullYear()} All rights reserved.

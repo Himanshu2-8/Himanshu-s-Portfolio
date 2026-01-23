@@ -6,14 +6,14 @@ const education = [
     institution: "Maharaja Agrasen Institute of Technology",
     degree: "B.Tech in Computer Science (AI & ML)",
     period: "Sep 2023 - Present",
-    grade: "CGPA: 8.8/10",
+    grade: "CGPA: 8.9/10",
     location: "New Delhi, India",
   },
   {
     institution: "Indraprastha International School",
     degree: "CBSE XII",
     period: "Mar 2021 - Jun 2022",
-    grade: "CGPA: 10/10",
+    grade: "Percentage: 95.4%",
     location: "New Delhi",
   },
 ];
