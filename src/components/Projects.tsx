@@ -8,7 +8,10 @@ const projects = [
     description:
       "Real-time multiplayer quiz platform with competitive rooms and sports-themed trivia. Features live synchronization for simultaneous gameplay and persistent user profiles.",
     tech: ["Node.js", "Express", "React", "Socket.io", "TypeScript"],
-    links: { github: "https://github.com/Himanshu2-8/Hoop-backend", website: "https://hoop-frontend.vercel.app/" },
+    links: {
+      github: "https://github.com/Himanshu2-8/Hoop-backend",
+      website: "https://hoop-frontend.vercel.app/",
+    },
   },
   {
     title: "Journeys",
