@@ -54,7 +54,7 @@ const Projects = () => {
               <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-6">
                 <div className="flex-1">
                   <div className="flex items-center gap-3 mb-3">
-                    <h3 className="font-display hover:cursor-pointer text-2xl md:text-3xl font-semibold group-hover:text-primary transition-colors">
+                    <h3 className="font-display cursor-pointer text-2xl md:text-3xl font-semibold group-hover:text-primary transition-colors">
                       {project.title}
                     </h3>
                     <span className="text-sm text-muted-foreground">
