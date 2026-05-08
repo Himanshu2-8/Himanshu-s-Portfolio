@@ -3,14 +3,34 @@ import { ExternalLink, Github } from "lucide-react";
 
 const projects = [
   {
-    title: "Hoop",
-    period: "Nov 2025 - Dec 2025",
+    title: "Ingressly",
+    period: "April 2026",
     description:
-      "Real-time multiplayer quiz platform with competitive rooms and sports-themed trivia. Features live synchronization for simultaneous gameplay and persistent user profiles.",
-    tech: ["Node.js", "Express", "React", "Socket.io", "TypeScript"],
+      "Scalable multi-tenant reverse proxy server that dynamically routes requests from custom subdomains to user-defined backend services. Implemented distributed rate limiting with Redis and secure API key-based validation with optimized lookup strategies.",
+    tech: ["Java", "Spring Boot", "Redis", "Docker"],
+    links: {
+      github: "https://github.com/Himanshu2-8/Ingressly",
+    },
+  },
+  {
+    title: "ClickPic",
+    period: "Jan 2026",
+    description:
+      "Comprehensive cost calculation engine for printouts with file upload handling, page-range parsing, and pricing normalization. Includes admin route layer with role-based authorization for inventory, order management, and report generation.",
+    tech: ["TypeScript", "Express", "Prisma"],
+    links: {
+      website: "https://clickpic-alpha.vercel.app/",
+    },
+  },
+  {
+    title: "Hoop",
+    period: "Oct 2025",
+    description:
+      "Full-stack multiplayer sports quiz platform where players create or join game rooms and compete in real-time. Features live synchronization using Socket.io, responsive React frontend with Tailwind CSS, and secure JWT authentication.",
+    tech: ["TypeScript", "Express", "React", "Socket.io"],
     links: {
       github: "https://github.com/Himanshu2-8/Hoop-backend",
-      website: "https://hoop-frontend.vercel.app/",
+      website: "https://hoop-frontend-git-main-himanshu-pragyans-projects.vercel.app/",
     },
   },
   {

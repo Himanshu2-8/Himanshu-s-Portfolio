@@ -19,7 +19,7 @@ const Hero = () => {
       />
 
       {/* Main content */}
-      <div className="max-w-5xl">
+      <div className="max-w-5xl mx-auto w-full">
         {/* Intro line */}
         <motion.div
           initial={{ opacity: 0, x: -20 }}

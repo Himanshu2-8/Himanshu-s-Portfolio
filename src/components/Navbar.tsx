@@ -6,7 +6,6 @@ import {
 } from "@/components/ui/tooltip";
 import { motion, AnimatePresence } from "framer-motion";
 import { useState, useEffect } from "react";
-
 const Navbar = () => {
     const [isVisible, setIsVisible] = useState(true);
 
