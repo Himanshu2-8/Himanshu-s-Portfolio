@@ -3,6 +3,16 @@ import { ExternalLink, Github } from "lucide-react";
 
 const projects = [
     {
+        title: "Explore",
+        period: "June 2026",
+        description:
+            "AI research assistant that automates web search, scraping, report generation, and critique using LangChain agents and Mistral models. Designed a multi-stage pipeline separating search, extraction, writing, and review with structured output tabs and progress tracking. Added cost-conscious controls such as direct tool-based search/scrape paths and capped generation length for efficient low-cost deployment.",
+        tech: ["Python", "LangChain", "Streamlit", "Mistral"],
+        links: {
+            website: "https://explore-ui.streamlit.app/",
+        },
+    },
+    {
         title: "Ingressly",
         period: "April 2026",
         description:
@@ -32,14 +42,6 @@ const projects = [
             github: "https://github.com/Himanshu2-8/Hoop-backend",
             website: "https://hoop-ui.vercel.app",
         },
-    },
-    {
-        title: "Journeys",
-        period: "Jun 2025 - Jul 2025",
-        description:
-            "Travel planning platform enabling custom itinerary building with interactive map integration. Includes secure user accounts and media storage for trip photos.",
-        tech: ["Next.js", "TypeScript", "PostgreSQL", "Prisma", "Google Maps"],
-        links: { github: "https://github.com/Himanshu2-8/Journeys" },
     },
 ];
 
