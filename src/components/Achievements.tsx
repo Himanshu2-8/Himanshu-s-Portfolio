@@ -15,7 +15,7 @@ const achievements = [
   {
     icon: Star,
     title: "Competitive Ratings",
-    description: "LeetCode 1450 • CodeChef 1250 • HackerRank 5★ C++",
+    description: "LeetCode 1650 • Codeforces 1000",
   },
   {
     icon: Code,
