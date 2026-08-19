@@ -32,7 +32,7 @@ const Navbar = () => {
         {
             name: "CodingProfile",
             icon: Code2,
-            url: "https://leetcode.com/u/Himanshu_2809/?utm=codolio",
+            url: "https://leetcode.com/u/Architect_04/",
         },
         { name: "Twitter", icon: Twitter, url: "https://twitter.com/Himanshu_348" },
         {
